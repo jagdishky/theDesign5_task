@@ -1,18 +1,5 @@
 export const Images = {
-    IMG_WELCOME_SCREEN_BACKGROUND_1: require('../assets/images/welcomeScreenBackground1.png'),
-    IMG_WELCOME_SCREEN_BACKGROUND_2: require('../assets/images/welcomeScreenBackground2.png'),
-    IMG_WELCOME_SCREEN_BACKGROUND_3: require('../assets/images/welcomeScreenBackground3.png'),
-    IMG_LOGIN_BANNER: require('../assets/images/login_banner.png'),
     IMG_RIGHT_ARROW: require('../assets/images/right_arrow.png'),
-    IMG_ARROW_NEXT: require('../assets/images/arrow_next.png'),
-    IMG_CLOSE: require('../assets/images/close.png'),
-    IMG_TOURCH: require('../assets/images/torch.png'),
-    IMG_SCAN: require('../assets/images/scan.png'),
-    IMG_CALENDER: require('../assets/images/calender.png'),
-    IMG_CHECK_MARK: require('../assets/images/checkMark.png'),
-    IMG_CLOCK: require('../assets/images/clock.png'),
-
-
     IMG_SEARCH: require('../assets/images/search.png'),
 
     IMG_FEED: require('../assets/images/feed.png'),

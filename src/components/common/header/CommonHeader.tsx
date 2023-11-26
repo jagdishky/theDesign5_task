@@ -1,16 +1,15 @@
 import React from 'react';
-import { ColorValue, StatusBarStyle, TouchableOpacity, StyleProp, StyleSheet, View, ViewStyle, Image } from 'react-native';
+import { ColorValue, Image, StyleProp, StyleSheet, TouchableOpacity, View, ViewStyle } from 'react-native';
 import { boxShadow } from '../../../styles/Mixins';
-import { spacing } from '../../../styles/spacing';
-import colors from '../../../utility/colors';
-import { APP_PADDING_HORIZONTAL } from '../../../utility/constants';
-import CommonTitle from '../CommonTitle';
-import BackButton from '../buttons/BackButton';
-import { Images } from '../../../utility/imagePaths';
-import RegularText from '../RegularText';
 import { textScale } from '../../../styles/responsiveStyles';
-import { goBack } from '../../../utility/commonFunctions';
+import { spacing } from '../../../styles/spacing';
 import { fontNames } from '../../../styles/typography';
+import colors from '../../../utility/colors';
+import { goBack } from '../../../utility/commonFunctions';
+import { APP_PADDING_HORIZONTAL } from '../../../utility/constants';
+import { Images } from '../../../utility/imagePaths';
+import CommonTitle from '../CommonTitle';
+import RegularText from '../RegularText';
 
 interface CommonHeaderProps {
     backText?: string
